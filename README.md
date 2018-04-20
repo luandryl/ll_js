@@ -4,17 +4,17 @@ Linked List JS
 A JS/ES6 implementation of classic Linked List.
 
 
-##Running 
+## Running 
 Webpack already generate a build JS file only for execution```./build/app.build.js```, so if you want to skip  the ```npm i``` command, just run ```npm start``` and you are clear see in console the result.
 
-###Otherwise
+### Otherwise
 If you want to execute the code folow this steps:
 
 1. ```npm i``` -> to install all dependencies
 2. ```npm run dev``` -> to run the code ```./index.js```
 
 3. build using ```npm run build```
-⋅⋅* run ```npm start```. 
+* run ```npm start```. 
 
 
 ## Features
