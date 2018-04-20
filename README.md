@@ -5,6 +5,9 @@ A JS/ES6 implementation of classic Linked List.
 
 
 ## Running 
+
+Node v9.8.0
+
 Webpack already generate a build JS file only for execution```./build/app.build.js```, so if you want to skip  the ```npm i``` command, just run ```npm start``` and you are clear see in console the result.
 
 ### Otherwise

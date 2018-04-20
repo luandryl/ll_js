@@ -1,7 +1,7 @@
 {
-  "name": "es6-ex",
+  "name": "ll_js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Linked List JS",
   "main": "index.js",
   "scripts": {
     "start": "node ./build/app.build.js",
