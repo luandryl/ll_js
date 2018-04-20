@@ -10,8 +10,11 @@ Webpack already generate a build JS file only for execution```./build/app.build.
 ###Otherwise
 If you want to execute the code folow this steps:
 
-1.```npm i``` -> to install all dependencies
-2.```npm run dev``` -> to run the code ```./index.js```
+1. ```npm i``` -> to install all dependencies
+2. ```npm run dev``` -> to run the code ```./index.js```
+
+3. build using ```npm run build```
+⋅⋅* run ```npm start```. 
 
 
 ## Features
