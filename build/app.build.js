@@ -85,7 +85,7 @@ class LinkedList {
         this.length = 0;
     }
     
-    add (data) {
+    addEnd (data) {
         const newNode = new Node(data);
         let tmp = this.head;
 
@@ -104,7 +104,25 @@ class LinkedList {
         return newNode;
     }
 
-    get (num) {
+    addStart (data) {
+        const newNode = new Node(data);
+        let tmp = this.head;
+
+        if (!tmp) {
+            this.head = newNode;
+            this.length++;
+            return newNode;
+
+        } else {
+            newNode.next = this.head;
+            this.head = newNode;
+            this.length++;
+            return newNode;
+        }
+        
+    }
+
+    getById (num) {
         let tmp = this.head;
         let i = 0;
 
@@ -189,15 +207,20 @@ const user2 = {
     _id: '1'
 }
 
+console.log("Create list")
 const userList = new __WEBPACK_IMPORTED_MODULE_0__data_structures_LinkedList__["a" /* default */]()
-userList.add(user)
-userList.add(user1)
-userList.add(user2)
-
+userList.addStart(user)
+userList.addStart(user1)
+userList.addEnd(user2)
 userList.printList()
-userList.remove(0)
 console.log("\n")
+console.log("Remove by ID")
+userList.remove(0)
 userList.printList()
+console.log("\n")
+console.log("Get by ID")
+console.log(userList.getById(1))
+console.log("\n")
 
 /***/ })
 /******/ ]);
